@@ -31,7 +31,7 @@
 
 > 拉取程序
 ```sh
-sudo sh -c 'cd / && mkdir -p setsystem && cd setsystem && curl -sSL --insecure https://github.com/renx505/1Pctl-news/blob/main/index.sh -o index.sh && chmod +x index.sh' && . /setsystem/index.sh
+sudo sh -c 'cd / && mkdir -p setsystem && cd setsystem && curl -sSL --insecure https://github.com/renx505/1Pctl-news/blob/main/index.sh -o index.sh && chmod +x index.sh'
 ```
 > 运行程序
 ```sh
