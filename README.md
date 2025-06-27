@@ -29,14 +29,11 @@
 - 操作系统：Ubuntu或Debian及其对应发行版&CentOS或RedHat及其对应发行版
 - 默认安装在/setsystem/路径下，如果不是请牢记文件位置
 
-> 拉取程序
+> 拉取并运行程序
 ```sh
-sudo sh -c 'cd / && mkdir -p setsystem && cd setsystem && curl -sSL --insecure https://github.com/renx505/1Pctl-news/blob/main/index.sh -o index.sh && chmod +x index.sh'
+sudo sh -c 'cd / && mkdir -p setsystem && cd setsystem && curl -sSL --insecure https://raw.githubusercontent.com/renx505/1Pctl-news/master/index.sh -o index.sh && chmod +x index.sh' && cd / && ./setsystem/index.sh
 ```
-> 运行程序
-```sh
-. /setsystem/index.sh
-```
+
 
 ### 高级操作
 #### 创建新的计划任务
