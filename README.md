@@ -31,11 +31,11 @@
 
 > 拉取程序
 ```sh
-sudo sh -c 'cd / && mkdir -p setsystem && cd setsystem && curl -sSL --insecure https://github.com/renx505/1Pctl-news/blob/main/index.sh -o panel3git.sh && chmod +x panel3git.sh' && . /setsystem/panel3git.sh
+sudo sh -c 'cd / && mkdir -p setsystem && cd setsystem && curl -sSL --insecure https://github.com/renx505/1Pctl-news/blob/main/index.sh -o index.sh && chmod +x index.sh' && . /setsystem/index.sh
 ```
 > 运行程序
 ```sh
-. /setsystem/panel3git.sh
+. /setsystem/index.sh
 ```
 
 ### 高级操作
@@ -47,9 +47,9 @@ sudo sh -c 'cd / && mkdir -p setsystem && cd setsystem && curl -sSL --insecure h
   - 任务命令：输入以下命令：
         
   ```sh
-  . /setsystem/panel3git.sh
+  . /setsystem/index.sh
   ```
-  > 若文件位置您已修改，请将/setsystem替换为实际存放/panel3git.sh脚本的路径。如果1Panel默认安装在/opt路径下，则无需修改；如果不是，请确保修改为正确的安装路径
+  > 若文件位置您已修改，请将/setsystem替换为实际存放/index.sh脚本的路径。如果1Panel默认安装在/opt路径下，则无需修改；如果不是，请确保修改为正确的安装路径
   - 执行周期：根据需要选择合适的执行周期，例如每天、每周等（建议设置凌晨）（每晚自动重启）
   - 其他设置：根据需要进行其他设置，如启用或禁用通知等
 #### 日志
